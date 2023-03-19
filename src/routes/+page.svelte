@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import AuthStatus from "../components/AuthStatus.svelte";
+</script>
+<div class="container mx-auto mt-8">
+  <AuthStatus />
+</div>

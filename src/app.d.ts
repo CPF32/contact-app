@@ -1,12 +1,11 @@
-// See https://kit.svelte.dev/docs/types#app
-// for information about these interfaces
-declare global {
-	namespace App {
-		// interface Error {}
-		// interface Locals {}
-		// interface PageData {}
-		// interface Platform {}
+declare namespace App {
+	interface Locals {
+		user: null | {
+			uid: string;
+			email?: string;
+		};
 	}
+	// interface Error {}
+	// interface PageData {}
+	// interface Platform {}
 }
-
-export {};
