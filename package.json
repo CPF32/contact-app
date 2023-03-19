@@ -36,8 +36,10 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-static": "^2.0.1",
+		"autoprefixer": "^10.4.14",
 		"firebase": "^9.18.0",
 		"firebase-admin": "^11.5.0",
-		"lodash": "^4.17.21"
+		"lodash": "^4.17.21",
+		"postcss": "^8.4.21"
 	}
 }

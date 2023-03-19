@@ -16,7 +16,7 @@
     <div class="container flex items-center mx-auto py-4 text-gray-400">
 
         <div class="mr-12">
-            <a href="/" class="text-gray-300 text-xl">Svelte Examples</a>
+            <a href="/" class="text-gray-300 text-xl">Contact App</a>
         </div>
 
         <div class="flex-1 flex gap-6">
